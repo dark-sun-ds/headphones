@@ -1,6 +1,6 @@
 {
   "homepage": "https://dark-sun-ds.github.io/headphones",
-  "name": "headphones",
+  "name": "./",
   "version": "0.1.0",
   "private": true,
   "proxy": "http://localhost:5000",
