@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/headphones-store/static/css/main.37f3e063.css",
+    "main.js": "/headphones-store/static/js/main.5fc8dcd1.js",
+    "static/js/453.b2250098.chunk.js": "/headphones-store/static/js/453.b2250098.chunk.js",
+    "static/media/Montserrat-VariableFont_wght.ttf": "/headphones-store/static/media/Montserrat-VariableFont_wght.7e687123cd4528224ce5.ttf",
+    "static/media/3.svg": "/headphones-store/static/media/3.fff506d190c872984264.svg",
+    "static/media/6.svg": "/headphones-store/static/media/6.769cdab42d274b1de1d8.svg",
+    "static/media/5.svg": "/headphones-store/static/media/5.5abfdf9ce89641caba4a.svg",
+    "static/media/1.svg": "/headphones-store/static/media/1.b4d7257adfb1d23d8398.svg",
+    "static/media/4.svg": "/headphones-store/static/media/4.a41a28a3404d9652ffc5.svg",
+    "static/media/2.svg": "/headphones-store/static/media/2.375b5a40b9f4ff9563a2.svg",
+    "static/media/VK.svg": "/headphones-store/static/media/VK.86d7355f7059ceae85e8050b4b38b1c5.svg",
+    "static/media/Whatsapp.svg": "/headphones-store/static/media/Whatsapp.0c2329b4108061b8ed5e2dd34b03e774.svg",
+    "static/media/cart.svg": "/headphones-store/static/media/cart.06ef4916435e454f7c5af107a66b981d.svg",
+    "static/media/global.svg": "/headphones-store/static/media/global.e4718a8a6a4b8389a25bb8a6aba9c7d4.svg",
+    "static/media/Telegram.svg": "/headphones-store/static/media/Telegram.bd4ba04c6ef12158241ef715cc4b3180.svg",
+    "static/media/delete.svg": "/headphones-store/static/media/delete.ff4b5ebaa208313e1393fe841aeb817a.svg",
+    "index.html": "/headphones-store/index.html",
+    "static/media/favourite.svg": "/headphones-store/static/media/favourite.272ca0abb379b2d29841c65f8735257b.svg",
+    "static/media/plus.svg": "/headphones-store/static/media/plus.a43e39aa23c459cf584f58cfb8f1dd63.svg",
+    "static/media/star-icon.svg": "/headphones-store/static/media/star-icon.cabb769b84c5819eddf6c11e7870951e.svg",
+    "static/media/gray-minus.svg": "/headphones-store/static/media/gray-minus.c8f943a672fd39c63f43bc1afd1386ac.svg",
+    "static/media/minus.svg": "/headphones-store/static/media/minus.f43ccebd38c7b593267690998cde05ce.svg",
+    "static/media/circle.svg": "/headphones-store/static/media/circle.680d0ebe179c434393fd.svg",
+    "main.37f3e063.css.map": "/headphones-store/static/css/main.37f3e063.css.map",
+    "main.5fc8dcd1.js.map": "/headphones-store/static/js/main.5fc8dcd1.js.map",
+    "453.b2250098.chunk.js.map": "/headphones-store/static/js/453.b2250098.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.37f3e063.css",
+    "static/js/main.5fc8dcd1.js"
+  ]
+}
