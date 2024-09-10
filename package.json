@@ -1,6 +1,6 @@
 {
-  "homepage": "https://dark-sun-ds.github.io/headphones-store",
-  "name": "headphones-store",
+  "homepage": "https://dark-sun-ds.github.io/headphones",
+  "name": "headphones",
   "version": "0.1.0",
   "private": true,
   "proxy": "http://localhost:5000",
@@ -12,6 +12,7 @@
     "@types/node": "^16.18.108",
     "@types/react": "^18.3.5",
     "@types/react-dom": "^18.3.0",
+    "headphones": "file:",
     "headphones-store": "file:",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
