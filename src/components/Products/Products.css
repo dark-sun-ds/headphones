@@ -1,0 +1,20 @@
+.products-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content:stretch;
+  flex: 1 1 auto;
+}
+
+.products-category {
+  color: rgb(131, 131, 131);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  margin-bottom: 24px;
+}

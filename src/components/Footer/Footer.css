@@ -1,0 +1,130 @@
+.footer {
+  margin-top: 20px;
+  border-radius: 30px 30px 0px 0px;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+  background: rgb(255, 255, 255);
+  padding: 30px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas: "logo menu service media";
+  gap: 5px;
+}
+
+.footer-logo {
+  margin: 0;
+  grid-area: logo;
+  color: rgb(16, 16, 16);
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30px;
+  cursor: pointer;
+  width: min-content;
+}
+
+.footer-menu {
+  grid-area: menu;
+  justify-self: end;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-menu_link,
+.footer-service_link {
+  color: rgb(0, 0, 0);
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 21px;
+  text-decoration: none;
+  width: max-content;
+}
+
+.footer-menu_link:hover,
+.footer-service_link:hover {
+  border-bottom: 1px solid rgb(255, 165, 66);
+}
+
+.footer-service {
+  grid-area: service;
+  justify-self: end;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.footer-service-language {
+  display: flex;
+  width: 110px;
+  gap: 17px;
+  height: 20px;
+  justify-content: space-between;
+}
+
+.footer-service-language_icon {
+  width: 16px;
+}
+
+.footer-service-language_button {
+  padding: 0;
+  color: rgb(16, 16, 16);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+  cursor: pointer;
+}
+
+.footer-service-language_button:not(.active):hover {
+  border-bottom: 1px solid rgb(255, 165, 66);
+}
+
+.active {
+  color: rgb(255, 165, 66);
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+.footer-media {
+  grid-area: media;
+  height: fit-content;
+  justify-self: end;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+@media screen and (max-width: 800px) {
+  .footer {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+      "logo logo logo"
+      "menu service media";
+    gap: 10px;
+  }
+
+  .footer-menu {
+    justify-self: start;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .footer {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "logo ."
+      "menu service"
+      "media media"
+      ;
+    gap: 10px;
+    font-size: 15px;
+  }
+
+  .footer-media {
+    justify-self: center;
+    margin-top: 15px;
+  }
+  .footer-menu_link,
+  .footer-service_link {
+  font-size: 15px;
+  }
+}

@@ -1,0 +1,50 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+  width:100%;
+  min-height: 60px;
+  margin-bottom: 30px;
+}
+
+.header_title {
+  color: rgb(16, 16, 16);
+  margin: 0;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30px;
+  cursor: pointer;
+}
+
+.header-container {
+  display: flex;
+  gap: 45px;
+}
+
+.header-container-button {
+  position: relative;
+  margin-top: 5px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.header-container-button_img {
+  position: relative;
+}
+
+.header-container-button_counter {
+  position: absolute;
+  background: rgb(255, 165, 66);
+  width: 17px;
+  height: 17px;
+  text-align: center;
+  border-radius: 8px;
+  top: -6px;
+  left: 20px;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+}
