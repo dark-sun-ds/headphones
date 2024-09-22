@@ -27,7 +27,7 @@ export const Product: FunctionComponent<Props> = ({ productData}) => {
       <div className="product-info">
         <p className="product-info_name">{productData.title}</p>
         <p className="product-info_price">{productData.price} ₽</p>
-        <p className="product-info_old-price">3525 ₽</p>
+        <p className="product-info_old-price">{productData.oldPrice ? `${productData.oldPrice} ₽` : ``}</p>
         <div className="product-info-review">
           <img
             src={starIcon}

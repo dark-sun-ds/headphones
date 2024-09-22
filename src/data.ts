@@ -7,6 +7,7 @@ const data = [
         img: "1.svg",
         title: "Apple BYZ S852I",
         price: 2927,
+        oldPrice: 3525,
         rate: 4.7,
       },
       {
@@ -14,6 +15,7 @@ const data = [
         img: "2.svg",
         title: "Apple EarPods",
         price: 2327,
+        oldPrice: 0,
         rate: 4.5,
       },
       {
@@ -21,6 +23,7 @@ const data = [
         img: "3.svg",
         title: "Apple EarPods",
         price: 2327,
+        oldPrice: 0,
         rate: 4.5,
       },
       {
@@ -28,6 +31,7 @@ const data = [
         img: "1.svg",
         title: "Apple BYZ S852I",
         price: 2927,
+        oldPrice: 0,
         rate: 4.7,
       },
       {
@@ -35,6 +39,7 @@ const data = [
         img: "2.svg",
         title: "Apple EarPods",
         price: 2327,
+        oldPrice: 0,
         rate: 4.5,
       },
       {
@@ -42,6 +47,7 @@ const data = [
         img: "3.svg",
         title: "Apple EarPods",
         price: 2327,
+        oldPrice: 0,
         rate: 4.5,
       },
     ],
@@ -54,6 +60,7 @@ const data = [
         img: "4.svg",
         title: "Apple AirPods",
         price: 9527,
+        oldPrice: 0,
         rate: 4.7,
       },
       {
@@ -61,6 +68,7 @@ const data = [
         img: "5.svg",
         title: "GERLAX GH-04",
         price: 6527,
+        oldPrice: 8526,
         rate: 4.7,
       },
       {
@@ -68,6 +76,7 @@ const data = [
         img: "6.svg",
         title: "BOROFONE BO4",
         price: 7527,
+        oldPrice: 0,
         rate: 4.7,
       },
     ],

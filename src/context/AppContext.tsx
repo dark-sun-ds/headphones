@@ -8,6 +8,7 @@ export type ProductsInfo = {
     img: string;
     title: string;
     price: number;
+    oldPrice: number;
     rate: number;
   }[];
   handleCountCart: Function;
@@ -17,6 +18,7 @@ export type ProductData = {
   img: string;
   title: string;
   price: number;
+  oldPrice: number;
   rate: number;
 };
 
@@ -25,6 +27,7 @@ export type CartData = {
   img: string;
   title: string;
   price: number;
+  oldPrice: number;
   rate: number;
   quantity: number;
 };
