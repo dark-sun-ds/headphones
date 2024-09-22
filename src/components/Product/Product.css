@@ -1,4 +1,5 @@
 .product {
+  justify-self: center;
   border-radius: 30px;
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
   background: rgb(255, 255, 255);
@@ -6,7 +7,6 @@
   max-width: 350px;
   width: 100%;
   display: flex;
-  flex: 1 1 auto;
   flex-direction: column;
   align-items: center;
   justify-content: end;
@@ -26,22 +26,28 @@
   grid-template-rows: 20px 26px 30px;
   grid-template-areas:
     "name current-price"
-    ". oldprice"
+    "name oldprice"
     "rating button-buy";
+  font-size: 17px;
 }
 
 .product-info_name {
   grid-area: name;
   color: rgb(28, 28, 39);
-  font-size: 17px;
   font-weight: 600;
   line-height: 21px;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: initial;
+display: -webkit-box;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 2;
+
 }
 
 .product-info_price {
   grid-area: current-price;
   color: rgb(255, 165, 66);
-  font-size: 17px;
   font-weight: 600;
   line-height: 21px;
   text-align: right;
@@ -70,7 +76,6 @@
 
 .product-info-review_rating {
   color: rgb(131, 131, 131);
-  font-size: 17px;
   font-weight: 600;
   line-height: 21px;
 }
@@ -85,24 +90,29 @@
   border: none;
   background-color: transparent;
   color: rgb(0, 0, 0);
-  font-size: 17px;
   font-weight: 600;
   line-height: 21px;
   cursor: pointer;
-/*   
-  border-bottom: 1px solid rgb(255, 165, 66); */
+  font-size: inherit;
 }
-  .product-info_button:hover {
-  /* border: 1px solid rgb(255, 165, 66); */
-background-color: rgb(255, 165, 66);
-color: white;
+.product-info_button:hover {
+  background-color: rgb(255, 165, 66);
+  color: white;
   border-radius: 3px;
-
 }
 
-
-@media screen and (max-width: 1235px) {
+@media screen and (max-width: 1000px) and (min-width: 751px),
+(max-width: 650px), (max-width: 480px)
+{
   .product {
+    gap: 20px;
   }
-  
+  .product-image {
+    max-width: 180px;
+  }
+
+  .product-info {
+    font-size: 15px;
+  }
+
 }

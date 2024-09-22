@@ -4,10 +4,10 @@ import { FunctionComponent } from "react";
 import type { ProductsInfo, ProductData } from "../utils/utils";
 
 
+
 export const Products: FunctionComponent<ProductsInfo> = ({
   productsData,
-  productsType,
-  handleCountCart
+  productsType
 }) => {
   return (
     <div className="products-container">
@@ -15,7 +15,7 @@ export const Products: FunctionComponent<ProductsInfo> = ({
       <div className="products">
         {productsData.map((product: ProductData) => {
           return (
-            <Product productData={product} handleCountCart={handleCountCart} />
+            <Product productData={product} />
           );
         })}
       </div>

@@ -1,23 +1,20 @@
 import "./Product.css";
 //import photo from '../images/1.svg';
 import starIcon from "../../images/star-icon.svg";
-import { FunctionComponent } from "react";
-import {
-  type ProductData,
-  addProduct,
-  counter,
-} from "../utils/utils";
+import { FunctionComponent, useContext } from "react";
+import { type ProductData } from "../utils/utils";
+import { AppContext } from "../../context/AppContext";
 
 type Props = {
   productData: ProductData;
-  handleCountCart: Function;
 };
 
-export const Product: FunctionComponent<Props> = ({ productData, handleCountCart }) => {
+export const Product: FunctionComponent<Props> = ({ productData}) => {
 
+  const context = useContext(AppContext);
   const handlerBuy = () => {
-    addProduct(productData);
-    handleCountCart(counter());
+    context?.addProduct(productData);
+    context?.counter();
   };
 
   return (

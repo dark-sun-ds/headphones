@@ -4,11 +4,9 @@
 }
 
 .products {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 30px;
-  justify-content:stretch;
-  flex: 1 1 auto;
 }
 
 .products-category {
@@ -18,3 +16,18 @@
   line-height: 24px;
   margin-bottom: 24px;
 }
+
+@media  screen and (max-width: 750px) {
+  .products {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+}
+
+@media  screen and (max-width: 480px) {
+  .products {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  
+}
+  

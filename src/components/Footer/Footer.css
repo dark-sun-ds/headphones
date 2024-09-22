@@ -40,8 +40,9 @@
 }
 
 .footer-menu_link:hover,
-.footer-service_link:hover {
-  border-bottom: 1px solid rgb(255, 165, 66);
+.footer-service_link:hover,
+.footer-service-language_button:not(.active):hover  {
+  text-decoration:underline rgb(255, 165, 66) 2px;
 }
 
 .footer-service {
@@ -71,10 +72,6 @@
   font-weight: 500;
   line-height: 18px;
   cursor: pointer;
-}
-
-.footer-service-language_button:not(.active):hover {
-  border-bottom: 1px solid rgb(255, 165, 66);
 }
 
 .active {
