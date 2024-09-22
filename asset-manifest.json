@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/headphones/static/css/main.ea559408.css",
-    "main.js": "/headphones/static/js/main.7617e821.js",
+    "main.css": "/headphones/static/css/main.3ff46d6f.css",
+    "main.js": "/headphones/static/js/main.1cff3b25.js",
     "static/js/453.ff935552.chunk.js": "/headphones/static/js/453.ff935552.chunk.js",
     "static/media/Montserrat-VariableFont_wght.ttf": "/headphones/static/media/Montserrat-VariableFont_wght.7e687123cd4528224ce5.ttf",
     "static/media/3.svg": "/headphones/static/media/3.fff506d190c872984264.svg",
@@ -23,12 +23,12 @@
     "static/media/gray-minus.svg": "/headphones/static/media/gray-minus.c8f943a672fd39c63f43bc1afd1386ac.svg",
     "static/media/minus.svg": "/headphones/static/media/minus.f43ccebd38c7b593267690998cde05ce.svg",
     "static/media/circle.svg": "/headphones/static/media/circle.680d0ebe179c434393fd.svg",
-    "main.ea559408.css.map": "/headphones/static/css/main.ea559408.css.map",
-    "main.7617e821.js.map": "/headphones/static/js/main.7617e821.js.map",
+    "main.3ff46d6f.css.map": "/headphones/static/css/main.3ff46d6f.css.map",
+    "main.1cff3b25.js.map": "/headphones/static/js/main.1cff3b25.js.map",
     "453.ff935552.chunk.js.map": "/headphones/static/js/453.ff935552.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ea559408.css",
-    "static/js/main.7617e821.js"
+    "static/css/main.3ff46d6f.css",
+    "static/js/main.1cff3b25.js"
   ]
 }
